@@ -6,6 +6,9 @@ import weatherImg from '../assets/weather.png';
 import portfolioImg from '../assets/portfolio.png';
 import passwordImg from '../assets/password.png';
 import ethioroadImg from '../assets/ethioroad.png';
+import chatappImg from '../assets/chatapp.png';
+import msmsImg from '../assets/msms.png';
+
 
 const Projects = () => {
   const projects = [
@@ -19,7 +22,7 @@ const Projects = () => {
       demo: 'https://shophub-five-pi.vercel.app/'
     },
     {
-      id: 2,
+      id: 7,
       title: 'Weather App',
       description: 'A responsive weather application that displays real-time weather data from the OpenWeatherMap API. It provides users with accurate temperature, humidity, and city-based weather updates in a sleek, modern interface..',
       image: weatherImg,
@@ -28,7 +31,7 @@ const Projects = () => {
       demo: 'https://weatherapp-dun-xi.vercel.app/'
     },
      {
-      id: 3,
+      id: 2,
       title: 'Portfolio Website',
       description: 'A personal portfolio website to showcase projects and skills with a clean, modern design.',
       image: portfolioImg,
@@ -37,7 +40,7 @@ const Projects = () => {
       demo: 'https://adinosportfolio-alpha.vercel.app/'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Password Generator App',
       description: 'A secure password generator app that creates strong, customizable passwords instantly. It allows users to choose password length and character types through a clean and responsive interface.',
       image: passwordImg, 
@@ -47,14 +50,30 @@ const Projects = () => {
     },
    
     {
-      id: 5,
+      id: 6,
       title: 'Ethio-Road App',
       description: 'Ethio-Road is a visiting and travel service app that helps users explore famous destinations, hotels, and tourist attractions across Ethiopia. It provides real-time navigation, location details, and travel assistance to make trip planning easier and more enjoyable.',
       image: ethioroadImg, 
       technologies: ['React', 'CSS'],
-      github: 'https://github.com/Adino-Aschalew/Ethio-Road',
-      demo: 'https://ethioroad.vercel.app/'
-    }
+      github: 'https://github.com/Adino-Aschalew/Ethio-Road'
+    },
+    {
+      id: 3,
+      title: 'Real-Chat App',
+      description: 'This chat app is for private and group chat it is secured with JWT Auth and can view profile of either friends or group chats in addition to that each individual can update their information. it use Socket.IO for real time message communication.',
+      image: chatappImg, 
+      technologies: ['React', 'TailwindCSS', 'Node.js', 'Express.js', 'MySQL'],
+      github: 'https://github.com/Adino-Aschalew/chat-app'
+    },
+    {
+      id: 4,
+      title: 'Microfinance Management System',
+      description: 'MSMS is a full stack finance system base for university staffs and employees it have a full authentication by thier emial for admins and for employees they are authenticate by thier employee ID and it have a real time notfication, payroll based saving, loan request, analytics measurement and performance.',
+      image: msmsImg, 
+      technologies: ['React', 'Tailwind CSS', 'Node.js','MySQL','Express.js'],
+      github: 'https://github.com/Adino-Aschalew/msms-mine-back'
+    },
+    
   ];
 
   return (
