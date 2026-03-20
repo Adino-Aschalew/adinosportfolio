@@ -15,7 +15,7 @@ const Home = () => {
   const [showSocial, setShowSocial] = useState(false);
   const socialRef = useRef(null);
 
-  const texts = ["Frontend Developer", "Graphics Designer"]; // both words
+  const texts = ["Full-Stack Developer", "Graphics And Product Designer"]; // both words
   const typingSpeed = 100;
 
   const fullText = texts[textIndex]; 
