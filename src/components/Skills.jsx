@@ -46,18 +46,20 @@ const Skills = () => {
       { name: 'CSS3', level: 90 },
       { name: 'JavaScript', level: 88 },
       { name: 'React', level: 85 },
+      { name: 'NextJs', level: 85 },
       { name: 'Tailwindcss', level: 80 },
     ],
     'Backend & Database': [
       { name: 'Node.js', level: 82 },
       { name: 'Express js', level: 80 },
-      { name: 'MySQL', level: 70 }
+      { name: 'MySQL', level: 90 },
+      { name: 'MongooDB', level: 70 }
     ],
     'Tools & Other': [
       { name: 'Photoshop', level: 91 },
       { name: 'Illustrator', level: 78 },
       { name: 'Canva', level: 80 },
-      { name: 'Git & GitHub', level: 88 },
+      { name: 'Git & GitHub', level: 90 },
       { name: 'VS Code', level: 92 },
       { name: 'UI/UX Principles', level: 80 },
     ],
